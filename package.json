@@ -10,8 +10,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.16.7",
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.15"
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
   }
 }
